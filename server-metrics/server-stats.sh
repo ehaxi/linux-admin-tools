@@ -2,6 +2,14 @@
 echo "==================== SYSTEM STATUS ===================="
 echo
 
+echo "System info"
+hostnamectl
+echo
+
+echo "Uptime info"
+uptime
+echo
+
 echo "CPU usage:"
 mpstat -P ALL | grep -v "Linux" | tail
 echo
