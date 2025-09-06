@@ -20,3 +20,14 @@ cd log-archiver
 chmod +x log-archiver.sh
 ./log-archiver <logs_dir> <path_to_archive_dir>
 ```
+
+## Nginx Log Analyzer
+
+https://roadmap.sh/projects/nginx-log-analyser
+
+### How to run:
+```bash
+cd nginx-log-analyzer
+chmod +x nginx-log-analyzer.sh
+./nginx-log-analyzer.sh <logs_file>
+```
